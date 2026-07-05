@@ -9,50 +9,51 @@ AI-Powered Decision Intelligence for Customer Operations
 </p>
 
 <p align="center">
-Transforming raw customer support emails into prioritized, explainable business decisions using Google Gemini, Google Cloud, and NVIDIA RAPIDS.
+Transform unstructured business communications into explainable insights, intelligent prioritization, and actionable decisions using Google Gemini, Google Cloud, and NVIDIA RAPIDS.
 </p>
 
 ---
 
 ## Overview
 
-Customer support teams receive hundreds of emails every day. While AI can summarize them, support managers still need to answer questions like:
+Modern organizations generate an overwhelming amount of unstructured information—emails, requests, reports, alerts, approvals, and conversations.
 
-- Which cases require immediate attention?
-- What is the business impact?
-- Which issues are recurring?
-- Where should engineers focus first?
+While Generative AI can summarize this information, teams still face critical questions:
 
-**CasePilot** is an AI-powered decision intelligence platform that ingests customer support emails, structures them using **Google Gemini**, computes an explainable **Health Score**, prioritizes cases based on business impact, and presents everything through an interactive dashboard.
+- What requires immediate attention?
+- Which items carry the highest business risk?
+- Where should resources be allocated first?
+- Which decisions should be made today?
 
-Rather than replacing support teams, CasePilot augments decision-making by turning unstructured emails into actionable insights.
+CasePilot is an AI-powered Decision Intelligence Platform that transforms unstructured business communications into structured intelligence, computes transparent business risk scores, prioritizes work based on explainable logic, and delivers actionable insights through an interactive dashboard.
 
+Rather than replacing human decision-makers, CasePilot augments operational teams with AI-assisted prioritization and explainable recommendations.
 ---
 
 # Architecture
 
 ```
-                    Customer Emails
-                           │
-                           ▼
-                  Gmail API Ingestion
-                           │
-                           ▼
-                Google Gemini Structuring
-                           │
-                           ▼
-                 Structured Support Cases
-                           │
-                           ▼
-             Explainable Scoring Engine
-                           │
-                           ▼
-            Risk Classification & Prioritization
-                           │
-                 ┌─────────┴─────────┐
-                 ▼                   ▼
-         NVIDIA RAPIDS         Streamlit Dashboard
-         GPU Analytics         Decision Console
+             Business Communications
+                      │
+                      ▼
+              Data Ingestion Layer
+                      │
+                      ▼
+          Google Gemini Structuring
+                      │
+                      ▼
+          Structured Business Records
+                      │
+                      ▼
+       Explainable Decision Intelligence
+                      │
+                      ▼
+      Risk Classification & Prioritization
+                      │
+            ┌─────────┴─────────┐
+            ▼                   ▼
+     NVIDIA RAPIDS       Streamlit Dashboard
+      GPU Analytics      Decision Console
 ```
 
 ---
@@ -61,14 +62,15 @@ Rather than replacing support teams, CasePilot augments decision-making by turni
 
 ### AI-powered Case Structuring
 
-Uses **Google Gemini** to extract:
+*Google Gemini* extracts structured intelligence including:
 
-- Issue Category
+- Category
+- Priority
 - Sentiment
 - Business Impact
 - Root Cause
 - AI Summary
-- Recommended Next Action
+- Recommended Action
 - Confidence Score
 - Named Entities
 
@@ -83,7 +85,7 @@ Factors include:
 - Urgency
 - Sentiment
 - Business Impact
-- Repeat Complaints
+- Historical Context
 - AI Confidence
 
 Cases are then classified into:
@@ -106,7 +108,7 @@ The Streamlit dashboard provides:
 - Searchable Case Explorer
 - Detailed Case View
 - Gemini-powered Resolution Suggestions
-- AI-generated Customer Email Drafts
+- AI-generated Response Drafts
 
 ---
 
