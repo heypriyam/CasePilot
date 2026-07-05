@@ -1,0 +1,24 @@
+# ============================
+# CasePilot - Python Dependencies
+# ============================
+
+# Dashboard
+streamlit>=1.46.0
+plotly>=6.2.0
+
+# Data Processing
+pandas>=2.3.0
+numpy>=2.3.1
+
+# Google Gemini
+google-genai>=1.24.0
+
+# Google APIs (Gmail OAuth)
+google-api-python-client>=2.176.0
+google-auth>=2.40.0
+google-auth-oauthlib>=1.2.2
+google-auth-httplib2>=0.2.0
+
+# Optional (GPU Benchmarking)
+# Install separately on a GPU machine:
+# pip install cudf-cu12 --extra-index-url=https://pypi.nvidia.com

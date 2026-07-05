@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.*
+
+# OAuth
+credentials.json
+client_secret*.json
+token*.json
+casepilot-auth/credentials.json
+casepilot-auth/token*.json
+
+# Generated artifacts
+casepilot_scaled_2m.csv
+
+# Personal files
+Credits*.csv
+
+# OS
+.DS_Store
+Thumbs.db

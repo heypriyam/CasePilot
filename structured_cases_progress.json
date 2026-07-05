@@ -1,0 +1,1763 @@
+[
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "/v2/reports/100",
+      "ERR-100"
+    ],
+    "summary": "The client is experiencing intermittent 500 Internal Server Errors on their production reporting endpoint, causing failures in their data pipeline.",
+    "root_cause": "Potential instability or resource exhaustion within the reporting service backend causing intermittent request failures.",
+    "recommended_next_action": "Escalate to the engineering team to investigate server logs for the /v2/reports/100 endpoint and provide the client with an initial status update.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f317019e616784",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #100] Login failing with error code AUTH-{n}",
+    "date": "Sun, 5 Jul 2026 01:40:57 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "/v2/reports/99",
+      "ERR-99",
+      "Case #99"
+    ],
+    "summary": "The user is reporting intermittent 500 Internal Server Errors on the reporting endpoint following a recent update, which is disrupting their production pipeline.",
+    "root_cause": "A potential regression or service instability introduced in the most recent system update affecting the reporting API endpoint.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the server logs for the /v2/reports/99 endpoint and provide the user with an incident status update.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f317014c963e6b",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #99] Dashboard not loading after latest update",
+    "date": "Sun, 5 Jul 2026 03:40:56 -0500"
+  },
+  {
+    "issue_category": "complaint",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-98",
+      "ACC-98"
+    ],
+    "summary": "The customer is expressing frustration regarding a lack of response for nine days on a previously reported high-priority ticket.",
+    "root_cause": "A failure in the support ticketing workflow or internal escalation process has caused the existing case to be neglected.",
+    "recommended_next_action": "Immediately escalate the ticket to a senior support lead to provide a status update and offer a formal apology to the customer.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f31700ee7ed3dd",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #98] This is the third time I'm reporting the same issue",
+    "date": "Sun, 5 Jul 2026 01:40:55 -0700"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "negative",
+    "urgency": 3,
+    "key_entities": [
+      "CANC-97",
+      "ACC-97"
+    ],
+    "summary": "The customer is requesting an update on a $499 refund that has not been processed two weeks after subscription cancellation.",
+    "root_cause": "A delay in the internal financial processing or payment gateway reconciliation for the cancelled subscription.",
+    "recommended_next_action": "Verify the status of the refund in the payment processor and provide the customer with a transaction reference number or updated timeline.",
+    "business_impact": "medium",
+    "confidence": 0.98,
+    "case_id": "19f31700cbe226df",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #97] Refund not received after cancellation",
+    "date": "Sun, 5 Jul 2026 03:40:54 -0500"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "negative",
+    "urgency": 3,
+    "key_entities": [
+      "ACC-96",
+      "CANC-96"
+    ],
+    "summary": "The customer is requesting an update on a $129 refund that has not been processed two weeks after subscription cancellation.",
+    "root_cause": "A delay in the internal financial processing or reconciliation of the refund request associated with account ACC-96.",
+    "recommended_next_action": "Verify the status of refund request CANC-96 in the billing system and provide the customer with a concrete processing timeline.",
+    "business_impact": "medium",
+    "confidence": 0.98,
+    "case_id": "19f31700be54973d",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #96] Refund not received after cancellation",
+    "date": "Sun, 5 Jul 2026 01:40:54 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-95",
+      "ACC-95"
+    ],
+    "summary": "The customer is reporting a recurring CRM sync failure for the third time and is threatening to churn due to lack of resolution.",
+    "root_cause": "Persistent integration failure between the CRM and the platform that has not been addressed by previous support interventions.",
+    "recommended_next_action": "Escalate the ticket to a senior technical engineer for a root cause analysis and provide the customer with a concrete resolution timeline within 24 hours.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f3170069e67e9e",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #95] This is the third time I'm reporting the same issue",
+    "date": "Sun, 5 Jul 2026 01:40:53 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/94"
+    ],
+    "summary": "The customer is requesting a CSV export feature for the reports view to improve workflow efficiency.",
+    "root_cause": "The current system only supports PDF exports for report data, lacking the flexibility for spreadsheet integration.",
+    "recommended_next_action": "Forward the request to the product team for roadmap consideration and inform the customer of the current status.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f3170039b293ee",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #94] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 04:40:52 -0400"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "negative",
+    "urgency": 3,
+    "key_entities": [
+      "ACC-93",
+      "CANC-93"
+    ],
+    "summary": "The customer is requesting a status update on a $249 refund for a cancelled subscription that has not been processed after two weeks.",
+    "root_cause": "A delay in the internal financial processing pipeline or a failure to trigger the refund workflow upon subscription cancellation.",
+    "recommended_next_action": "Verify the status of refund request CANC-93 in the billing system and provide the customer with a concrete timeline or confirmation of the transaction.",
+    "business_impact": "medium",
+    "confidence": 0.98,
+    "case_id": "19f316fff474df49",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #93] Billing amount doesn't match my plan",
+    "date": "Sun, 5 Jul 2026 01:40:51 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-92"
+    ],
+    "summary": "The user is locked out of their admin panel due to an expired API key rotation issue.",
+    "root_cause": "The automated API key rotation process failed or expired, triggering a security lockout after repeated login attempts.",
+    "recommended_next_action": "Manually reset the user's account lockout status and provide instructions for updating the API key.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316ffa21e244f",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #92] Unable to access admin panel",
+    "date": "Sun, 5 Jul 2026 01:40:50 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-91"
+    ],
+    "summary": "The user is locked out of account ACC-91 due to failed login attempts caused by an expired API key.",
+    "root_cause": "The account was automatically locked by security protocols following repeated authentication failures triggered by an expired API key.",
+    "recommended_next_action": "Manually reset the account lockout status for ACC-91 and provide instructions for updating the expired API key.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316ff582dd288",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #91] New team member needs account access",
+    "date": "Sun, 5 Jul 2026 01:40:48 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The customer is requesting a dark mode feature to improve usability for night-shift monitoring staff.",
+    "root_cause": "The current dashboard interface lacks a low-light viewing mode suitable for extended use in dark environments.",
+    "recommended_next_action": "Log the request in the product feedback backlog for consideration in future UI/UX updates.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316ff35ab1434",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #90] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 01:40:48 -0700"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "neutral",
+    "urgency": 3,
+    "key_entities": [
+      "INV-890089",
+      "Starter plan",
+      "ACC-89"
+    ],
+    "summary": "The customer is reporting a recurring billing discrepancy where the invoiced amount does not align with the agreed-upon contract price for their Starter plan.",
+    "root_cause": "A potential mismatch between the contract terms and the automated billing configuration for account ACC-89.",
+    "recommended_next_action": "Verify the contract terms for ACC-89 against the current billing profile and provide the customer with a correction timeline for the overcharged amounts.",
+    "business_impact": "medium",
+    "confidence": 0.95,
+    "case_id": "19f316fed2c437fd",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #89] Refund not received after cancellation",
+    "date": "Sun, 5 Jul 2026 03:40:46 -0500"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "negative",
+    "urgency": 4,
+    "key_entities": [
+      "INV-880088",
+      "Enterprise plan",
+      "ACC-88"
+    ],
+    "summary": "The customer is reporting a recurring billing discrepancy where they are being charged $129 instead of the contracted $349 for their Enterprise plan.",
+    "root_cause": "A mismatch between the active subscription pricing in the billing system and the agreed-upon contract terms for the account.",
+    "recommended_next_action": "Verify the contract terms for ACC-88, adjust the billing system to reflect the correct $349 rate, and issue a credit or corrected invoice for the previous two cycles.",
+    "business_impact": "medium",
+    "confidence": 0.98,
+    "case_id": "19f316fead377224",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #88] Billing amount doesn't match my plan",
+    "date": "Sun, 5 Jul 2026 01:40:46 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-87",
+      "403",
+      "/api/dashboard/data-87"
+    ],
+    "summary": "The dashboard is failing to load for account ACC-87 due to a 403 error following a recent deployment.",
+    "root_cause": "A permissions or authentication configuration error was likely introduced during the recent deployment affecting API access.",
+    "recommended_next_action": "Investigate the API permissions for the /api/dashboard/data-87 endpoint and verify if the deployment altered access control lists for account ACC-87.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316fe61c50803",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #87] Data sync broken between environments",
+    "date": "Sun, 5 Jul 2026 01:40:45 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Pro plan dashboard"
+    ],
+    "summary": "The customer is requesting a bulk action feature to approve or reject multiple records simultaneously in the Pro plan dashboard.",
+    "root_cause": "The current dashboard interface lacks batch processing capabilities, forcing users to perform repetitive manual tasks.",
+    "recommended_next_action": "Forward the request to the product management team for consideration in the upcoming feature roadmap.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316fe221c11e9",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #86] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 04:40:43 -0400"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-85"
+    ],
+    "summary": "User is locked out of account ACC-85 due to failed login attempts following an expired API key rotation.",
+    "root_cause": "The account security policy triggered a lockout mechanism after multiple failed authentication attempts caused by an expired API key.",
+    "recommended_next_action": "Verify the user's identity and manually reset the account lockout status for ACC-85.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316fe0d5e281a",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #85] New team member needs account access",
+    "date": "Sun, 5 Jul 2026 01:40:43 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "AUTH-84",
+      "SSO"
+    ],
+    "summary": "The user is experiencing an AUTH-84 error during SSO login across multiple platforms, likely due to a token refresh failure.",
+    "root_cause": "The system is failing to correctly handle token refresh requests following the 13-day expiration window.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the SSO token refresh logic and provide the user with a status update.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f316fdb3b0ce07",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #84] Data sync broken between environments",
+    "date": "Sun, 5 Jul 2026 03:40:42 -0500"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "AUTH-83",
+      "SSO"
+    ],
+    "summary": "The user is unable to log in via SSO due to an AUTH-83 error occurring across both browser and mobile platforms.",
+    "root_cause": "A potential failure in the backend token refresh mechanism following the 9-day expiry window.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the SSO token refresh service and provide the user with an estimated resolution timeline.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f316fd9fbc7e21",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #83] Data sync broken between environments",
+    "date": "Sun, 5 Jul 2026 03:40:41 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/82"
+    ],
+    "summary": "The customer is requesting the ability to export report data to CSV format instead of being limited to PDF.",
+    "root_cause": "The current reporting module lacks a CSV export functionality, forcing users to perform manual data entry.",
+    "recommended_next_action": "Forward the request to the product team for roadmap consideration and inform the customer that their feedback has been logged.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316fd3705997c",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #82] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 04:40:40 -0400"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "/api/v2",
+      "ACC-81"
+    ],
+    "summary": "The user is reporting that recent undocumented changes to the /api/v2 endpoints have caused breaking issues for their integrations.",
+    "root_cause": "An unannounced deployment of breaking changes to the API infrastructure caused a regression in existing client integrations.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the recent /api/v2 deployment and provide the user with a rollback or immediate migration path.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316fcfc030191",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #81] Very disappointed with recent service quality",
+    "date": "Sun, 5 Jul 2026 03:40:39 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The customer is requesting a dark mode feature to improve usability for night-shift staff.",
+    "root_cause": "The current dashboard interface lacks a low-light viewing mode suitable for extended use.",
+    "recommended_next_action": "Log the feature request in the product backlog for future UI/UX consideration.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316fcfb77a0b8",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #80] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:40:38 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "AUTH-{n}",
+      "ACC-79",
+      "/api/dashboard/data-79"
+    ],
+    "summary": "User is unable to access the dashboard due to a 403 error following a recent system update.",
+    "root_cause": "A potential permission or authentication configuration mismatch introduced during the recent deployment is preventing the dashboard API from validating the user's session.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the 403 error logs for ACC-79 and verify if the recent update altered API endpoint permissions.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316fc8244214c",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #79] Login failing with error code AUTH-{n}",
+    "date": "Sun, 5 Jul 2026 03:40:37 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Pro plan dashboard"
+    ],
+    "summary": "The user is requesting a bulk action feature for approving or rejecting records to improve operational efficiency.",
+    "root_cause": "The current dashboard interface lacks batch processing capabilities, forcing users to handle records individually.",
+    "recommended_next_action": "Forward the request to the product management team for consideration in the upcoming feature roadmap.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316fc6050cfc1",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #78] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:40:36 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Pro plan dashboard"
+    ],
+    "summary": "The user is requesting a bulk action feature for approving or rejecting records to improve operational efficiency.",
+    "root_cause": "The current dashboard interface lacks bulk processing capabilities, forcing users to handle records individually.",
+    "recommended_next_action": "Forward the request to the product management team for consideration in the upcoming roadmap.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316fc2463d464",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #77] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 03:40:35 -0500"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-76"
+    ],
+    "summary": "The user is trapped in a login redirect loop for account ACC-76, preventing access to the admin panel.",
+    "root_cause": "A permissions update deployed 18 days ago likely introduced a configuration conflict or session validation error for the user's account.",
+    "recommended_next_action": "Escalate to the engineering team to investigate session management and permission settings for account ACC-76.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f316fc15737fd0",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #76] Unable to access admin panel",
+    "date": "Sun, 5 Jul 2026 01:40:35 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-75"
+    ],
+    "summary": "The user is experiencing an authentication redirect loop preventing access to the admin panel.",
+    "root_cause": "A permissions update likely introduced a configuration conflict or session validation error for the user's account.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the permissions update impact on account ACC-75 and clear the user's active session cache.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316fbff47e693",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #75] Locked out of my account",
+    "date": "Sun, 5 Jul 2026 01:40:34 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Pro plan"
+    ],
+    "summary": "The customer is requesting a bulk action feature for approving or rejecting records in the Pro plan dashboard to improve operational efficiency.",
+    "root_cause": "The current dashboard interface lacks bulk processing capabilities, forcing users to handle records individually.",
+    "recommended_next_action": "Forward the request to the product management team for consideration in the upcoming feature roadmap.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316fb99fe6c9f",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #74] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:40:33 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-73",
+      "ACC-73"
+    ],
+    "summary": "The customer is reporting a recurring, unresolved CRM synchronization issue and is threatening to churn.",
+    "root_cause": "Persistent failure in the integration middleware causing recurring synchronization errors between the CRM and the platform.",
+    "recommended_next_action": "Escalate the ticket to a senior technical lead for a root cause analysis and provide the customer with a concrete resolution timeline within 4 hours.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316fb5783106a",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #73] Very disappointed with recent service quality",
+    "date": "Sun, 5 Jul 2026 01:40:32 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-72"
+    ],
+    "summary": "The user is locked out of their admin panel due to failed login attempts following an expired API key rotation.",
+    "root_cause": "The account security policy triggered a lockout mechanism after multiple failed authentication attempts caused by an outdated API key.",
+    "recommended_next_action": "Verify the user's identity and manually reset the lockout status for account ACC-72 while providing instructions for API key rotation.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316fb095e4c29",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #72] Unable to access admin panel",
+    "date": "Sun, 5 Jul 2026 03:40:31 -0500"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "/v2/reports/71",
+      "ERR-71",
+      "AUTH-{n}"
+    ],
+    "summary": "The user is reporting intermittent 500 Internal Server Error responses on the /v2/reports/71 endpoint, causing failures in their production reporting pipeline.",
+    "root_cause": "A potential backend service instability or database timeout issue is causing intermittent request failures on the reporting endpoint.",
+    "recommended_next_action": "Escalate to the engineering team to investigate server logs for the /v2/reports/71 endpoint and provide an update to the customer regarding the status of ERR-71.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f316faed202c8b",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #71] Login failing with error code AUTH-{n}",
+    "date": "Sun, 5 Jul 2026 03:40:30 -0500"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "/api/v2",
+      "ACC-70"
+    ],
+    "summary": "The user is reporting that recent undocumented changes to the /api/v2 endpoints have caused breaking issues for their integrations.",
+    "root_cause": "An unannounced deployment of breaking changes to the API infrastructure caused immediate service disruption for existing integrations.",
+    "recommended_next_action": "Immediately escalate to the engineering team to investigate the API changes and provide a rollback or urgent migration documentation to the client.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316fadfa69582",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #70] Very disappointed with recent service quality",
+    "date": "Sun, 5 Jul 2026 01:40:30 -0700"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "neutral",
+    "urgency": 3,
+    "key_entities": [
+      "INV-690069",
+      "ACC-69",
+      "Team plan"
+    ],
+    "summary": "The customer is reporting a recurring billing discrepancy where they are being charged $249 despite a contract stating the same amount, requesting a correction timeline for reconciliation.",
+    "root_cause": "A potential mismatch between the contract terms stored in the billing system and the actual invoice generation logic for the Team plan.",
+    "recommended_next_action": "Verify the contract terms for ACC-69 against the billing system configuration and provide the customer with a clear timeline for the refund or credit adjustment.",
+    "business_impact": "medium",
+    "confidence": 0.95,
+    "case_id": "19f316fa69587ed2",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #69] Refund not received after cancellation",
+    "date": "Sun, 5 Jul 2026 01:40:28 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/68"
+    ],
+    "summary": "The customer is requesting a CSV export feature for the /reports/68 view to improve workflow efficiency.",
+    "root_cause": "The current system only supports PDF exports for report data, lacking the requested CSV functionality.",
+    "recommended_next_action": "Forward the request to the product management team for roadmap consideration and inform the customer of the current status.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316fa29cb7907",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #68] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:40:27 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-67"
+    ],
+    "summary": "The user is experiencing a login redirect loop on the admin panel despite performing a password reset.",
+    "root_cause": "A permissions update deployed 21 days ago likely introduced a configuration error or session conflict affecting admin account access.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the session management and permissions configuration for account ACC-67.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316fa0c0cdbbe",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #67] Locked out of my account",
+    "date": "Sun, 5 Jul 2026 01:40:27 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "/api/v2",
+      "ACC-66"
+    ],
+    "summary": "The customer is reporting that recent undocumented changes to the /api/v2 endpoints have caused their integrations to fail, impacting their own end-users.",
+    "root_cause": "A breaking change was deployed to the production API environment without prior communication or a deprecation period for existing integrations.",
+    "recommended_next_action": "Immediately escalate to the engineering team to investigate the API changes and provide the customer with a rollback option or urgent migration documentation.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316f9cc5b8f3d",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #66] Extremely frustrated with lack of response",
+    "date": "Sun, 5 Jul 2026 01:40:26 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-65"
+    ],
+    "summary": "The user is experiencing an infinite redirect loop when attempting to access the admin panel despite a password reset.",
+    "root_cause": "A misconfiguration or permission conflict introduced during the recent permissions update is preventing the user's session from authenticating correctly.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the user's permission profile and session handling for account ACC-65.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f316f9bbc195e8",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #65] New team member needs account access",
+    "date": "Sun, 5 Jul 2026 01:40:25 -0700"
+  },
+  {
+    "issue_category": "complaint",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-64",
+      "ACC-64"
+    ],
+    "summary": "The customer is expressing frustration regarding a 19-day delay in receiving a response for a high-priority support ticket.",
+    "root_cause": "Internal support ticket backlog or failure in the escalation management process for Pro-tier accounts.",
+    "recommended_next_action": "Immediately escalate ticket ERR-64 to a senior support lead and provide the customer with a personalized apology and status update.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f99ed884ae",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #64] Very disappointed with recent service quality",
+    "date": "Sun, 5 Jul 2026 01:40:25 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-63"
+    ],
+    "summary": "The user is trapped in a login redirect loop on the admin panel following a recent permissions update.",
+    "root_cause": "A misconfiguration or conflict in the recent permissions update is preventing the authentication session from persisting for the user's account.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the permissions update impact on account ACC-63 and manually reset the user's session state.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f93595acbc",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #63] Locked out of my account",
+    "date": "Sun, 5 Jul 2026 03:40:23 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The customer is requesting a dark mode feature to improve usability for their night-shift monitoring team.",
+    "root_cause": "The current dashboard interface lacks a low-light viewing mode suitable for extended use in dark environments.",
+    "recommended_next_action": "Log the feature request in the product backlog for consideration by the UI/UX design team.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f8f27cb777",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #62] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 01:40:22 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Pro plan"
+    ],
+    "summary": "The customer is requesting a bulk action feature for approving or rejecting records in the Pro plan dashboard to improve operational efficiency.",
+    "root_cause": "The current dashboard interface lacks batch processing capabilities, forcing users to perform repetitive manual tasks.",
+    "recommended_next_action": "Forward the request to the product management team for consideration in the upcoming feature roadmap.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f8cdf947f8",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #61] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 01:40:21 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Case #60",
+      "reporting module"
+    ],
+    "summary": "The user is requesting admin access for a new team member to the reporting module.",
+    "root_cause": "A new team member requires administrative permissions to perform their job functions.",
+    "recommended_next_action": "Verify the requester's authorization and grant the requested admin permissions to teammate60@example.com.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f8849966b1",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #60] Unable to access admin panel",
+    "date": "Sun, 5 Jul 2026 01:40:20 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "/v2/reports/59",
+      "ERR-59"
+    ],
+    "summary": "The user is reporting intermittent 500 Internal Server Errors on the /v2/reports/59 endpoint that are disrupting their production reporting pipeline.",
+    "root_cause": "A potential server-side instability or resource contention is causing intermittent failures on the reporting API endpoint.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the server logs for the /v2/reports/59 endpoint and provide an update to the customer within the requested 16-hour window.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316f8441b1d3e",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #59] Data sync broken between environments",
+    "date": "Sun, 5 Jul 2026 04:40:20 -0400"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-58"
+    ],
+    "summary": "The user is locked out of their account due to failed login attempts caused by an expired API key.",
+    "root_cause": "The account was automatically locked by the security system following repeated authentication failures triggered by an expired API key.",
+    "recommended_next_action": "Manually reset the account lockout status for ACC-58 and provide instructions for updating the expired API key.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f836694638",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #58] New team member needs account access",
+    "date": "Sun, 5 Jul 2026 01:40:19 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Starter plan"
+    ],
+    "summary": "The customer is requesting a bulk action feature to approve or reject multiple records simultaneously in the Starter plan dashboard.",
+    "root_cause": "The current dashboard interface lacks batch processing capabilities, forcing users to perform manual, repetitive tasks.",
+    "recommended_next_action": "Log the request in the product feedback tracker and notify the product management team for future roadmap consideration.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f7a3d37a2d",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #57] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 03:40:17 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The customer is requesting a dark mode feature to improve usability for night-shift staff.",
+    "root_cause": "The current dashboard interface lacks a low-light or dark mode setting for extended usage.",
+    "recommended_next_action": "Log the request in the product feedback backlog for consideration by the UI/UX design team.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f781f9a932",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #56] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:40:16 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-55",
+      "ACC-55"
+    ],
+    "summary": "The customer is expressing extreme frustration regarding an unresolved CRM sync issue that has persisted for 17 days despite multiple follow-ups.",
+    "root_cause": "A recurring technical failure in the CRM integration sync process that has not been effectively addressed by previous support interventions.",
+    "recommended_next_action": "Escalate the ticket to a senior technical engineer for an immediate root cause analysis and provide the customer with a concrete resolution timeline.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316f776ed0694",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #55] Extremely frustrated with lack of response",
+    "date": "Sun, 5 Jul 2026 04:40:16 -0400"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Pro plan dashboard"
+    ],
+    "summary": "The user is requesting a bulk action feature for approving or rejecting records to improve operational efficiency.",
+    "root_cause": "The current dashboard interface lacks batch processing capabilities, forcing users to perform manual, repetitive tasks.",
+    "recommended_next_action": "Forward the request to the product management team for consideration in the upcoming roadmap.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f72bd1526d",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #54] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 03:40:15 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/53"
+    ],
+    "summary": "The user is requesting a CSV export feature for the reports view to improve workflow efficiency.",
+    "root_cause": "The current system lacks a native data export functionality for reports, forcing users to perform manual data entry.",
+    "recommended_next_action": "Forward the request to the product management team for roadmap consideration and inform the user that their feedback has been logged.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f702ce1700",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #53] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 01:40:14 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-52"
+    ],
+    "summary": "The user is trapped in a login redirect loop on the admin panel despite performing a password reset.",
+    "root_cause": "A recent permissions update likely introduced a configuration conflict or session validation error for the user's account.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the permissions update impact on account ACC-52 and manually clear the user's session cache.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f6fd3150f1",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #52] Locked out of my account",
+    "date": "Sun, 5 Jul 2026 01:40:14 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-51",
+      "/api/dashboard/data-51"
+    ],
+    "summary": "The dashboard is failing to load due to a 403 error following a recent deployment, preventing team access to data.",
+    "root_cause": "A permission or authentication configuration error was likely introduced during the recent deployment affecting the dashboard API endpoint.",
+    "recommended_next_action": "Investigate the API permissions for the /api/dashboard/data-51 endpoint and verify the deployment configuration for account ACC-51.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f6c0515cec",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #51] Data sync broken between environments",
+    "date": "Sun, 5 Jul 2026 01:40:13 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Starter plan"
+    ],
+    "summary": "The customer is requesting a bulk action feature for approving or rejecting records in the Starter plan dashboard to improve operational efficiency.",
+    "root_cause": "The current dashboard interface lacks batch processing capabilities, forcing users to handle records individually.",
+    "recommended_next_action": "Forward the request to the product management team for consideration in the upcoming roadmap for the Starter plan.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f6670d13c6",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #50] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 01:40:12 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-49",
+      "ACC-49"
+    ],
+    "summary": "The customer is reporting a recurring synchronization failure between their CRM and the platform for the third time and is threatening to churn.",
+    "root_cause": "Persistent integration synchronization failure likely caused by an unresolved backend bug or API configuration mismatch associated with error code ERR-49.",
+    "recommended_next_action": "Escalate the ticket to a senior technical engineer for an immediate root cause analysis and provide the customer with a concrete resolution timeline.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316f642500a66",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #49] This is the third time I'm reporting the same issue",
+    "date": "Sun, 5 Jul 2026 01:40:11 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The customer is requesting a dark mode feature to improve usability for night-shift monitoring staff.",
+    "root_cause": "The current dashboard interface lacks a low-light or high-contrast display mode suitable for extended night-time use.",
+    "recommended_next_action": "Log the feature request in the product backlog for consideration by the UI/UX design team.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f614cc98b2",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #48] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 04:40:10 -0400"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "/v2/reports/47",
+      "ERR-47"
+    ],
+    "summary": "The user is experiencing intermittent 500 Internal Server Errors on the reporting endpoint, which is disrupting their production pipeline.",
+    "root_cause": "A potential server-side instability or resource contention issue is causing intermittent failures on the /v2/reports/47 endpoint.",
+    "recommended_next_action": "Escalate to the engineering team to investigate server logs for the /v2/reports/47 endpoint and provide the customer with an update on the investigation status.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f5ce7c79db",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #47] Login failing with error code AUTH-{n}",
+    "date": "Sun, 5 Jul 2026 04:40:09 -0400"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "negative",
+    "urgency": 4,
+    "key_entities": [
+      "INV-460046",
+      "ACC-46",
+      "Team plan"
+    ],
+    "summary": "The customer is reporting a recurring billing discrepancy where they are being overcharged $250 per month compared to their contract rate.",
+    "root_cause": "A mismatch between the customer's contracted pricing tier and the automated billing system configuration for account ACC-46.",
+    "recommended_next_action": "Verify the contract terms for ACC-46, issue a credit for the overcharged amounts, and update the subscription billing profile to the correct rate.",
+    "business_impact": "medium",
+    "confidence": 0.98,
+    "case_id": "19f316f5bd6a05c0",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #46] Unexpected charge on my card",
+    "date": "Sun, 5 Jul 2026 03:40:09 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 1,
+    "key_entities": [
+      "/reports/45"
+    ],
+    "summary": "The customer is requesting a CSV export option for the /reports/45 view to improve workflow efficiency.",
+    "root_cause": "The current reporting module lacks a data export functionality for spreadsheet-compatible formats.",
+    "recommended_next_action": "Forward the request to the product management team for roadmap consideration and inform the customer of the current status.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f57ed76e8d",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #45] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 04:40:07 -0400"
+  },
+  {
+    "issue_category": "complaint",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-43",
+      "ACC-43",
+      "Starter-tier"
+    ],
+    "summary": "The customer is expressing frustration regarding a 10-day delay in receiving a response for a high-priority support ticket.",
+    "root_cause": "Internal support queue mismanagement or failure to meet established service level agreements for high-priority tickets.",
+    "recommended_next_action": "Immediately escalate ticket ERR-43 to a senior support lead and provide the customer with a personalized apology and status update.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f53d3320cb",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #43] Very disappointed with recent service quality",
+    "date": "Sun, 5 Jul 2026 03:40:06 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The user is requesting a dark mode feature to improve usability for their night-shift monitoring team.",
+    "root_cause": "The current dashboard interface lacks a low-light viewing mode suitable for extended use in dark environments.",
+    "recommended_next_action": "Log the feature request in the product backlog for consideration by the UI/UX design team.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f53372b93f",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #44] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 01:40:07 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "ACC-42"
+    ],
+    "summary": "The user is experiencing a login redirect loop on the admin panel following a recent permissions update.",
+    "root_cause": "A misconfiguration or conflict in the user's permission settings introduced during the recent update is preventing successful authentication.",
+    "recommended_next_action": "Escalate to the engineering team to verify the user's permission scope and clear any stuck session tokens associated with ACC-42.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f316f4dee7c421",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #42] New team member needs account access",
+    "date": "Sun, 5 Jul 2026 03:40:05 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/41"
+    ],
+    "summary": "The customer is requesting a CSV export feature for the reports view to improve their team's workflow efficiency.",
+    "root_cause": "The current reporting module lacks a data export functionality for spreadsheet-compatible formats.",
+    "recommended_next_action": "Forward the request to the product management team for roadmap consideration and inform the customer that their feedback has been logged.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f4916d5b2d",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #41] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 03:40:04 -0500"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-40"
+    ],
+    "summary": "User is locked out of account ACC-40 due to failed login attempts caused by an expired API key.",
+    "root_cause": "The user's API key expired, leading to repeated failed authentication attempts that triggered an automated account lockout.",
+    "recommended_next_action": "Manually reset the account lockout status for ACC-40 and provide the user with instructions to update their API key.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f4762b2a38",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #40] New team member needs account access",
+    "date": "Sun, 5 Jul 2026 01:40:04 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "ACC-39"
+    ],
+    "summary": "The user is experiencing an infinite redirect loop when attempting to access the admin panel after a recent permissions update.",
+    "root_cause": "A misconfiguration or conflict in the user's permission settings following the recent system update is preventing successful authentication.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the permissions configuration for account ACC-39 and clear any stuck session tokens.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f316f42500ae0c",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #39] New team member needs account access",
+    "date": "Sun, 5 Jul 2026 01:40:03 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The customer is requesting a dark mode feature to improve usability for their night-shift monitoring team.",
+    "root_cause": "The current dashboard interface lacks a low-light viewing mode suitable for extended night-time usage.",
+    "recommended_next_action": "Log the request in the product feedback database for consideration in future UI/UX development cycles.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f40fb90a4a",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #38] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 03:40:02 -0500"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "/api/v2",
+      "ACC-37"
+    ],
+    "summary": "The user is reporting that recent undocumented changes to the /api/v2 endpoints have caused breaking issues for their integrations.",
+    "root_cause": "The engineering team deployed breaking changes to the API without providing a deprecation period or migration notification to existing users.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the breaking changes and provide the user with an immediate hotfix or rollback instructions.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316f3cff7904b",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #37] Very disappointed with recent service quality",
+    "date": "Sun, 5 Jul 2026 01:40:01 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-36",
+      "ACC-36"
+    ],
+    "summary": "The customer is reporting a recurring CRM synchronization failure that remains unresolved after multiple attempts, leading to potential churn.",
+    "root_cause": "A persistent integration bug between the CRM and the platform is failing to sync data, likely due to an unaddressed API or configuration conflict.",
+    "recommended_next_action": "Escalate the ticket to a senior technical engineer for an immediate root cause analysis and provide the customer with a concrete resolution timeline.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316f39bde4c16",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #36] Very disappointed with recent service quality",
+    "date": "Sun, 5 Jul 2026 01:40:00 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "reporting module",
+      "teammate35@example.com"
+    ],
+    "summary": "The user is requesting admin access for a new team member to the reporting module.",
+    "root_cause": "The user lacks the necessary administrative permissions to provision access for new team members.",
+    "recommended_next_action": "Verify the requester's authorization level and grant the requested admin access to the specified email address.",
+    "business_impact": "low",
+    "confidence": 0.95,
+    "case_id": "19f316f386d8e153",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #35] Locked out of my account",
+    "date": "Sun, 5 Jul 2026 04:40:00 -0400"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-34"
+    ],
+    "summary": "The user is locked out of their account due to failed login attempts following an expired API key rotation.",
+    "root_cause": "The account security lockout was triggered by an automated system response to repeated failed authentication attempts caused by an expired API key.",
+    "recommended_next_action": "Verify the user's identity and manually reset the security lockout on account ACC-34 to restore access.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f30d36c193",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #34] Unable to access admin panel",
+    "date": "Sun, 5 Jul 2026 03:39:58 -0500"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "ACC-33",
+      "/api/dashboard/data-33",
+      "403"
+    ],
+    "summary": "The user is unable to access the dashboard due to a 403 error on the API endpoint following a recent deployment.",
+    "root_cause": "A recent deployment likely introduced a regression in API permissions or authentication middleware affecting the dashboard data endpoint.",
+    "recommended_next_action": "Investigate the recent deployment logs for changes to the /api/dashboard/data-33 endpoint and verify permission configurations for account ACC-33.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f316f2f89ac68c",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #33] API returning 500 errors intermittently",
+    "date": "Sun, 5 Jul 2026 04:39:58 -0400"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The customer is requesting a dark mode feature to improve usability for their night-shift monitoring team.",
+    "root_cause": "The current dashboard interface lacks a low-light or high-contrast mode suitable for extended night-time usage.",
+    "recommended_next_action": "Log the feature request in the product backlog and notify the user that their feedback has been shared with the development team.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f2ce90b3f6",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #32] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 03:39:57 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Pro plan dashboard"
+    ],
+    "summary": "The customer is requesting a bulk action feature to approve or reject multiple records simultaneously to improve operational efficiency.",
+    "root_cause": "The current dashboard interface lacks batch processing capabilities, forcing users to handle records individually.",
+    "recommended_next_action": "Forward the request to the product management team for consideration in the upcoming roadmap.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f29fa106ef",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #31] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 01:39:56 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The user is requesting a dark mode feature to improve usability for night-shift staff.",
+    "root_cause": "The current dashboard lacks a low-light interface option for users working extended night shifts.",
+    "recommended_next_action": "Log the feature request in the product roadmap and notify the user that their feedback has been received.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f254a96888",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #30] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 03:39:55 -0500"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "negative",
+    "urgency": 4,
+    "key_entities": [
+      "ACC-29",
+      "CANC-29"
+    ],
+    "summary": "The customer is requesting a status update on a $499 refund for a cancelled subscription that has not been processed after two weeks.",
+    "root_cause": "A delay in the automated refund processing workflow or a failure to trigger the financial transaction after the cancellation request was approved.",
+    "recommended_next_action": "Verify the status of the refund in the payment gateway and provide the customer with a transaction reference number or an estimated completion date.",
+    "business_impact": "medium",
+    "confidence": 0.98,
+    "case_id": "19f316f21d1a7e3e",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #29] Billing amount doesn't match my plan",
+    "date": "Sun, 5 Jul 2026 04:39:54 -0400"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/28"
+    ],
+    "summary": "The customer is requesting a CSV export feature for the reports view to improve their team's data processing efficiency.",
+    "root_cause": "The current system architecture only supports PDF exports for report data, lacking a structured data output format.",
+    "recommended_next_action": "Forward the request to the product management team for roadmap consideration and inform the customer that their feedback has been logged.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f1c614bc79",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #28] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 01:39:53 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/27"
+    ],
+    "summary": "The customer is requesting a CSV export feature for the reports view to eliminate manual data entry.",
+    "root_cause": "The current reporting module lacks a native CSV export functionality, limiting data portability.",
+    "recommended_next_action": "Forward the request to the product management team for roadmap consideration and inform the customer of the current status.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f18454158b",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #27] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:39:52 -0700"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "neutral",
+    "urgency": 3,
+    "key_entities": [
+      "INV-260026",
+      "ACC-26",
+      "Enterprise plan"
+    ],
+    "summary": "The customer is reporting a recurring billing discrepancy where the invoiced amount does not match the contracted Enterprise plan rate.",
+    "root_cause": "A potential mismatch between the customer's contract terms and the automated billing system configuration for account ACC-26.",
+    "recommended_next_action": "Verify the contract terms against the current billing profile for ACC-26 and provide the customer with a correction timeline for the overcharges.",
+    "business_impact": "medium",
+    "confidence": 0.95,
+    "case_id": "19f316f13d73e45b",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #26] Unexpected charge on my card",
+    "date": "Sun, 5 Jul 2026 03:39:50 -0500"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/25"
+    ],
+    "summary": "The customer is requesting the ability to export data from the /reports/25 view to CSV format instead of the current PDF-only option.",
+    "root_cause": "The current reporting module lacks a CSV export functionality, forcing users to perform manual data entry.",
+    "recommended_next_action": "Forward the request to the product management team for roadmap consideration and inform the customer of the current status.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f0f99947ba",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #25] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:39:49 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "reporting module"
+    ],
+    "summary": "The customer is requesting admin access for a new team member to the reporting module.",
+    "root_cause": "The customer needs to provision permissions for a new employee before their onboarding date.",
+    "recommended_next_action": "Verify the requester's authorization and grant admin access to teammate24@example.com for the reporting module.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316f0b0597258",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #24] Locked out of my account",
+    "date": "Sun, 5 Jul 2026 01:39:48 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "AUTH-{n}",
+      "ACC-23",
+      "/api/dashboard/data-23"
+    ],
+    "summary": "User is unable to access the dashboard due to a 403 error following a recent system update.",
+    "root_cause": "A potential permission or authentication configuration mismatch introduced during the recent deployment is preventing the dashboard API from authorizing the user's request.",
+    "recommended_next_action": "Escalate to the engineering team to verify API permissions and authentication token validation for account ACC-23 following the latest deployment.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316f069c64742",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #23] Login failing with error code AUTH-{n}",
+    "date": "Sun, 5 Jul 2026 01:39:47 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-22",
+      "ACC-22"
+    ],
+    "summary": "The customer is reporting a recurring, unresolved synchronization issue between their CRM and the platform and is threatening to churn.",
+    "root_cause": "Persistent failure in the data synchronization integration between the CRM and the platform that has not been addressed by previous support attempts.",
+    "recommended_next_action": "Escalate the ticket to a senior technical lead for an immediate root cause analysis and provide the customer with a concrete resolution timeline.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316f05612689d",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #22] Extremely frustrated with lack of response",
+    "date": "Sun, 5 Jul 2026 03:39:46 -0500"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 4,
+    "key_entities": [
+      "ACC-21",
+      "/api/dashboard/data-21"
+    ],
+    "summary": "The user is experiencing a 403 error on the dashboard API following a recent deployment, preventing team access.",
+    "root_cause": "A recent deployment likely introduced a permission or authentication configuration error affecting the dashboard API endpoint.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the API permissions for the /api/dashboard/data-21 endpoint and verify the recent deployment logs.",
+    "business_impact": "high",
+    "confidence": 0.95,
+    "case_id": "19f316f01d366d2c",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #21] API returning 500 errors intermittently",
+    "date": "Sun, 5 Jul 2026 01:39:46 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-20",
+      "ACC-20"
+    ],
+    "summary": "The customer is reporting a recurring synchronization failure between their CRM and the platform for the third time and is threatening to churn.",
+    "root_cause": "Persistent failure in the synchronization integration layer between the CRM and the platform that has not been addressed by previous support interventions.",
+    "recommended_next_action": "Escalate the ticket to a senior technical engineer for an immediate root cause analysis and provide the customer with a concrete resolution timeline.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316efccba5d98",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #20] This is the third time I'm reporting the same issue",
+    "date": "Sun, 5 Jul 2026 04:39:45 -0400"
+  },
+  {
+    "issue_category": "complaint",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-19",
+      "ACC-19"
+    ],
+    "summary": "The customer is expressing frustration regarding a 14-day delay in receiving an update for a previously reported high-priority technical issue.",
+    "root_cause": "A breakdown in internal ticket escalation processes or communication follow-through has led to a significant delay in resolving the customer's issue.",
+    "recommended_next_action": "Immediately escalate the ticket to a senior support lead to provide a status update and offer a service recovery gesture to the customer.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316efb0440c4d",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #19] This is the third time I'm reporting the same issue",
+    "date": "Sun, 5 Jul 2026 04:39:44 -0400"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/18"
+    ],
+    "summary": "The customer is requesting a CSV export feature for the /reports/18 view to improve their team's workflow efficiency.",
+    "root_cause": "The current system only supports PDF exports for reports, lacking the requested CSV functionality.",
+    "recommended_next_action": "Check the product roadmap for CSV export capabilities and respond to the customer with an update or a feature request ticket link.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316ef57a4e7d1",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #18] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:39:43 -0700"
+  },
+  {
+    "issue_category": "complaint",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-17",
+      "ACC-17"
+    ],
+    "summary": "The customer is expressing extreme frustration regarding a 21-day delay in receiving a response for a high-priority support ticket.",
+    "root_cause": "Internal support ticket backlog or failure in the escalation process for the Starter-tier account.",
+    "recommended_next_action": "Immediately escalate ticket ERR-17 to a senior support lead for resolution and provide a direct apology to the customer.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316eef03534d1",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #17] Very disappointed with recent service quality",
+    "date": "Sun, 5 Jul 2026 01:39:41 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "/api/v2",
+      "ACC-16"
+    ],
+    "summary": "The customer is reporting that recent undocumented changes to the /api/v2 endpoints have caused breaking issues for their integrations.",
+    "root_cause": "A breaking change was deployed to the production API environment without prior communication or a deprecation period for existing integrations.",
+    "recommended_next_action": "Escalate to the engineering team to verify the API changes and provide the customer with an immediate rollback or a technical workaround.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316eecc45b38d",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #16] Extremely frustrated with lack of response",
+    "date": "Sun, 5 Jul 2026 04:39:41 -0400"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The customer is requesting a dark mode feature to improve usability for their night-shift monitoring team.",
+    "root_cause": "The current dashboard interface lacks a low-light viewing mode suitable for extended use in dark environments.",
+    "recommended_next_action": "Log the request in the product feedback backlog for consideration in future UI/UX updates.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316eea7d42c76",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #15] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 01:39:40 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-14",
+      "/api/dashboard/data-14"
+    ],
+    "summary": "The dashboard is failing to load for account ACC-14 due to a 403 Forbidden error following a recent update.",
+    "root_cause": "A permissions or authentication configuration error was likely introduced during the recent deployment, preventing the dashboard from accessing the required API endpoint.",
+    "recommended_next_action": "Investigate the API permissions for the /api/dashboard/data-14 endpoint and verify if the recent deployment altered access control lists for account ACC-14.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316ee9131bcf6",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #14] Data sync broken between environments",
+    "date": "Sun, 5 Jul 2026 01:39:40 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The user is requesting a dark mode feature to improve usability for night-shift monitoring staff.",
+    "root_cause": "The current dashboard interface lacks a low-light or high-contrast mode suitable for extended use in dark environments.",
+    "recommended_next_action": "Log the request in the product roadmap and notify the user that their feedback has been shared with the design team.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316ece35726b3",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #13] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 01:39:33 -0700"
+  },
+  {
+    "issue_category": "access",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ACC-12"
+    ],
+    "summary": "The user is locked out of account ACC-12 due to failed login attempts following an expired API key rotation.",
+    "root_cause": "The account was automatically locked by security protocols after multiple failed authentication attempts caused by an expired API key.",
+    "recommended_next_action": "Verify the user's identity and manually reset the account lockout status for ACC-12.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316ec3d62a39a",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #12] Locked out of my account",
+    "date": "Sun, 5 Jul 2026 01:39:30 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "/api/v2",
+      "ACC-11"
+    ],
+    "summary": "The user is reporting that recent undocumented changes to the /api/v2 endpoints have caused critical integration failures for their account.",
+    "root_cause": "Deployment of breaking changes to the API without providing adequate deprecation warnings or migration documentation.",
+    "recommended_next_action": "Escalate to the engineering team to investigate the specific breaking changes and provide the user with immediate remediation steps or a rollback plan.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316ebeade8eff",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #11] Extremely frustrated with lack of response",
+    "date": "Sun, 5 Jul 2026 01:39:29 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The user is requesting a dark mode feature to improve usability for night-shift monitoring staff.",
+    "root_cause": "The current dashboard interface lacks a low-light display mode suitable for extended night-time usage.",
+    "recommended_next_action": "Log the feature request in the product backlog for consideration by the UI/UX design team.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316eba1b1e3b8",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #10] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:39:28 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "/v2/reports/9",
+      "ERR-9"
+    ],
+    "summary": "The customer is experiencing intermittent 500 Internal Server Errors on the /v2/reports/9 endpoint, which is disrupting their production reporting pipeline.",
+    "root_cause": "A potential server-side instability or resource contention issue is causing intermittent failures on the specific reporting endpoint.",
+    "recommended_next_action": "Escalate to the engineering team to investigate server logs for the /v2/reports/9 endpoint and provide the customer with an initial status update.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316eb0497e819",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #9] API returning 500 errors intermittently",
+    "date": "Sun, 5 Jul 2026 01:39:25 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The user is requesting a dark mode feature to improve usability for night-shift monitoring staff.",
+    "root_cause": "The current dashboard interface lacks a low-light or high-contrast viewing mode suitable for extended use in dark environments.",
+    "recommended_next_action": "Log the request in the product roadmap and notify the user that their feedback has been shared with the development team.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316ea1ff912da",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #8] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 01:39:21 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "/reports/7"
+    ],
+    "summary": "The customer is requesting a CSV export feature for the /reports/7 view to improve workflow efficiency.",
+    "root_cause": "The current system only supports PDF exports for reports, forcing manual data entry for users.",
+    "recommended_next_action": "Forward the request to the product management team for roadmap consideration and inform the customer of the current status.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316e9cb0319ed",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #7] Feature suggestion: bulk actions",
+    "date": "Sun, 5 Jul 2026 01:39:20 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "positive",
+    "urgency": 1,
+    "key_entities": [
+      "dashboard"
+    ],
+    "summary": "The customer is requesting a dark mode feature to improve usability for night-shift monitoring staff.",
+    "root_cause": "The current dashboard interface lacks a low-light viewing mode suitable for extended use in dark environments.",
+    "recommended_next_action": "Log the request in the product feedback backlog for consideration in future UI/UX updates.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316e90be372d9",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #6] Would love a dark mode option",
+    "date": "Sun, 5 Jul 2026 01:39:17 -0700"
+  },
+  {
+    "issue_category": "billing",
+    "sentiment": "neutral",
+    "urgency": 3,
+    "key_entities": [
+      "INV-5005",
+      "ACC-5",
+      "Pro plan"
+    ],
+    "summary": "The customer is reporting a recurring billing discrepancy where the invoiced amount does not align with the agreed-upon contract price for their Pro plan.",
+    "root_cause": "A potential mismatch between the subscription contract terms and the automated billing system configuration for account ACC-5.",
+    "recommended_next_action": "Verify the contract terms for ACC-5 against the current billing profile and issue a credit note for the overcharged amounts.",
+    "business_impact": "medium",
+    "confidence": 0.95,
+    "case_id": "19f316e834b930de",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #5] Refund not received after cancellation",
+    "date": "Sun, 5 Jul 2026 01:39:14 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "/v2/reports/4",
+      "ERR-4"
+    ],
+    "summary": "The client is experiencing intermittent 500 Internal Server Errors on the /v2/reports/4 endpoint, which is disrupting their production reporting pipeline.",
+    "root_cause": "A potential server-side instability or resource contention affecting the specific reporting endpoint.",
+    "recommended_next_action": "Escalate to the engineering team to investigate server logs for the /v2/reports/4 endpoint and provide the client with an initial status update.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316e7ce9f8d0a",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #4] API returning 500 errors intermittently",
+    "date": "Sun, 5 Jul 2026 01:39:12 -0700"
+  },
+  {
+    "issue_category": "technical",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-3",
+      "ACC-3"
+    ],
+    "summary": "The customer is reporting a recurring, unresolved sync issue between their CRM and the platform and is threatening to switch vendors.",
+    "root_cause": "Persistent integration failure between the CRM and the platform that has not been addressed by previous support attempts.",
+    "recommended_next_action": "Escalate the ticket to a senior technical engineer for an immediate root cause analysis and provide the customer with a concrete resolution timeline.",
+    "business_impact": "critical",
+    "confidence": 0.98,
+    "case_id": "19f316e79cb9f13e",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #3] Very disappointed with recent service quality",
+    "date": "Sun, 5 Jul 2026 01:39:11 -0700"
+  },
+  {
+    "issue_category": "complaint",
+    "sentiment": "urgent_negative",
+    "urgency": 5,
+    "key_entities": [
+      "ERR-2",
+      "ACC-2"
+    ],
+    "summary": "The customer is expressing frustration regarding a 12-day delay in receiving a response for a high-priority ticket.",
+    "root_cause": "Internal service level agreement breach and failure to provide timely updates on an existing support ticket.",
+    "recommended_next_action": "Escalate the ticket to a senior support lead for immediate resolution and provide a direct apology to the customer.",
+    "business_impact": "high",
+    "confidence": 0.98,
+    "case_id": "19f316e75d2d1169",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #2] This is the third time I'm reporting the same issue",
+    "date": "Sun, 5 Jul 2026 01:39:10 -0700"
+  },
+  {
+    "issue_category": "feature_request",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "key_entities": [
+      "Enterprise plan"
+    ],
+    "summary": "The customer is requesting a bulk action feature for approving or rejecting records in the Enterprise plan dashboard to improve operational efficiency.",
+    "root_cause": "The current dashboard interface lacks bulk processing capabilities, forcing users to handle records individually.",
+    "recommended_next_action": "Forward the request to the product management team for consideration in the upcoming feature roadmap.",
+    "business_impact": "low",
+    "confidence": 0.98,
+    "case_id": "19f316e732bfae4f",
+    "from": "CasePilot <casepilot.demo@gmail.com>",
+    "subject": "[Case #1] Request: export data to CSV",
+    "date": "Sun, 5 Jul 2026 01:39:09 -0700"
+  }
+]
