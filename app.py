@@ -346,7 +346,7 @@ st.divider()
 
 # ---- acceleration benchmark, real numbers ----
 st.subheader("Acceleration Benchmark")
-st.caption("Same aggregation pipeline, run on 2 million rows")
+st.caption("Same aggregation pipeline, Measured on NVIDIA GPU using a 2M-row synthetic dataset")
 b1, b2, b3 = st.columns(3)
 b1.metric("Pandas (CPU)", "1.86s")
 b2.metric("cuDF (GPU)", "1.41s")
