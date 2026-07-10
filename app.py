@@ -5,8 +5,8 @@ from google import genai
 
 st.set_page_config(page_title="CasePilot", layout="wide")
 
-REAL_DATA_URL = "https://storage.googleapis.com/casepilot-data-2026/casepilot_scored_cases.csv"
-SCALED_DATA_URL = "https://storage.googleapis.com/casepilot-data-2026/casepilot_scaled_100k.csv"
+REAL_DATA_URL = "https://storage.googleapis.com/casepilot_files/casepilot_scored_cases.csv"
+SCALED_DATA_URL = "https://storage.googleapis.com/casepilot/casepilot_scaled_100k.csv"
 
 dataset_choice = st.sidebar.radio("Dataset", ["Real cases (100)", "Scaled demo (100k)"])
 data_url = REAL_DATA_URL if dataset_choice == "Real cases (100)" else SCALED_DATA_URL
